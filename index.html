@@ -4,15 +4,125 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap Sample</title>
+    <meta name="description" content="鈴木　彬嵩のポートフォリオです。今回のブートキャンプを生かして、今後ともますますプログラミングの知識を身に付けていきたいと思っています。">
+    <title>Yoshitaka portfolio</title>
     <!-- BootstrapのCSS読み込み -->
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <!-- jQuery読み込み -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- BootstrapのJS読み込み -->
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <style>
+        .navbar img {
+             width:1280px;
+             height:500px;
+        }
+    
+        .thumbnail img {
+            width: 242px;
+            height:200px;
+        }
+    </style>
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <header>
+            <nav class="navbar navbar-inverse">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#site-menue">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand">YOSHITAKA SUZUKI</a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="site-menu">
+                        <ul class="nav navbar-nav navbar-left">
+                            <li><a href="about.html">ABOUT</a></li>
+                            <li><a href="works.html">WORKS</a></li>
+                            <li><a href="contact.html">CONTACT</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <img src="bg.jpg" class="img-responsive" alt="Responsive image">
+            </nav>
+            
+        </div>
+    </header>
+    <div class="container">
+        <div class="page-header">
+            <h1>Works</h1>
+        </div>
+        <div class="row">
+        	<div class="col-xs-6 col-md-3">
+        		<div class="thumbnail">
+        			<img src="couple.jpg">
+        			<div class="caption">
+        				<h3>Works 1</h3>
+        				<p>段落。</p>
+        				<p>新しいタイプの出会い系サイトを考えています。</p>
+        				<p><a href="works.html" class="btn btn-primary" role="button" target="_blank">detail</a></p>
+        			</div>
+        		</div>
+        	</div>
+        	<div class="col-xs-6 col-md-3">
+        		<div class="thumbnail">
+        			<img src="book.jpg">
+        			<div class="caption">
+        				<h3>Works 2</h3>
+        				<p>段落。</p>
+        				<p>様々な学問や政治に関するディスカッションサイトを考えています</p>
+        				<p><a href="works.html" class="btn btn-primary" role="button" target="_blank">detail</a></p>
+        			</div>
+        		</div>
+        	</div>
+        	<div class="col-xs-6 col-md-3">
+        		<div class="thumbnail">
+        			<img src="vatican.jpg">
+        			<div class="caption">
+        				<h3>Works 3</h3>
+        				<p>段落。</p>
+        				<p>アイデア募集中です。宜しくお願いします</p>
+        				<p><a href="works.html" class="btn btn-primary" role="button" target="_blank">detail</a></p>
+        			</div>
+        		</div>
+        	</div>
+        	<div class="col-xs-6 col-md-3">
+        		<div class="thumbnail">
+        			<img src="art.jpg">
+        			<div class="caption">
+        				<h3>Works 4</h3>
+        				<p>段落。</p>
+        				<p>アイデア募集中です。宜しくお願いします</p>
+        				<p><a href="works.html" class="btn btn-primary" role="button" target="_blank">detail</a></p>
+        	        </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="page-header">
+                <h1>Introduction</h1>
+            </div>
+            <div class="jumbotron">
+              <h1>Hello!! Guys!!</h1>
+              <p>初めまして！鈴木　彬嵩と言います！読み方は”よしたか”です！現在長期留学中なのでアメリカからの参加となりますが一生懸命
+                 頑張りますので宜しくお願い致します！
+              </p>
+              <p><a class="btn btn-primary btn-lg" href="#" role="button">about</a></p>
+            </div>
+            <div class="panel panel-info">
+                <div class="panel-heading">
+                    <h3 class="panel-title" id="panel-title">
+                        <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
+                                GitHub page
+                    </h3>
+                </div>
+                <div class="panel-body">
+                                 http://yoshitakas.github.io.
+                </div>
+            </div>
+        </div>
+    </div>
   </body>
 </html>
